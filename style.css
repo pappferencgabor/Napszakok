@@ -1,0 +1,67 @@
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+#content {
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-20%);
+}
+
+#info, h2 {
+    color: white;
+}
+#info img, #quote img {
+    width: 18px;
+    color: white;
+}
+#info img, #info h2 {
+    display: inline-block;
+}
+
+
+#time {
+    font-size: 256px;
+    color: white;
+}
+#timeS {
+    font-size: 96px;
+}
+
+#quote {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 170px;
+    margin: 15px;
+    background-color: rgba(39, 39, 39, 0.678);
+}
+#qText {
+    text-align: center;
+    margin: 16px;
+}
+#qFooter img, #qFooter p {
+    display: inline-block;
+}
+#qFooter img {
+    position: absolute;
+    bottom: 0;
+    width: 32px;
+}
+#qAuthor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

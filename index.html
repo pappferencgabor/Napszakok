@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelenlegi idő</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="content">
+            <div id="info">
+                <img src="" id="dayTimeImg"></img>
+                <h2>GOOD <span id="dayTime"></span>, ITS CURRENTLY</h2>
+            </div>
+            <h1 id="time">
+                <span id="timeH">00</span><span id="timeM">:00</span><span id="timeS">:00</span>
+            </h1>
+            <h2>EUROPE/BUDAPEST</h2>
+        </div>
+
+        <div id="quote">
+            <q id="qText"></q>
+            <div id="qFooter">
+                <img src="src/refresh.svg" alt="" onclick="generateQ()">                
+                <p id="qAuthor"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
